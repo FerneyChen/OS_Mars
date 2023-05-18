@@ -12,10 +12,10 @@ body {
 	margin: 0;
 	--color-text: #fff;
 	--color-bg: #000;
-	--color-link: #5a5a5a;
-	--color-link-hover: #3eaaf1;
-	--color-alt: #3ba2e5;
-	--color-info: #e93f3b;
+	--color-link: rgb(212,7,73);
+	--color-link-hover: rgb(47,232,195);
+	--color-alt: rgb(47,232,195);
+	--color-info: rgb(212,7,73);
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	font-family: ltc-bodoni-175, serif;
@@ -24,15 +24,15 @@ body {
 }
 
 .demo-2 {
-	--color-link-hover: #53C2C6;
-	--color-alt: #53C2C6;
-	--color-info: #FF5F73;
+	--color-link-hover: rgb(47,232,195);
+	--color-alt: rgb(47,232,195);
+	--color-info: rgb(212,7,73);
 }
 
 .demo-3 {
 	--color-link-hover: #DFD98A;
 	--color-alt: #DFD98A;
-	--color-info: #A90519;
+	--color-info: rgb(212,7,73);
 }
 
 .demo-4 {
