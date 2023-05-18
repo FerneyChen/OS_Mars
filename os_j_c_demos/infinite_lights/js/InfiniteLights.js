@@ -1,4 +1,4 @@
-console.log(POSTPROCESSING);
+console.log(POSTPROCESSING); 
 class App {
   constructor(container, options = {}) {
     // Init ThreeJS Basics
