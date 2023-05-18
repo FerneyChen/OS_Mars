@@ -12,10 +12,10 @@ body {
 	margin: 0;
 	--color-text: #fff;
 	--color-bg: #000;
-	--color-link: rgb(212,7,73);
-	--color-link-hover: rgb(47,232,195);
+	--color-link: rgb(47,232,195);
+	--color-link-hover: rgb(212,7,73);
 	--color-alt: rgb(47,232,195);
-	--color-info: rgb(212,7,73);
+	--color-info: rgb(47,232,195);
 	color: var(--color-text);
 	background-color: var(--color-bg);
 	font-family: ltc-bodoni-175, serif;
@@ -24,9 +24,9 @@ body {
 }
 
 .demo-2 {
-	--color-link-hover: rgb(47,232,195);
+	--color-link-hover: rgb(212,7,73);
 	--color-alt: rgb(47,232,195);
-	--color-info: rgb(212,7,73);
+	--color-info: rgb(47,232,195);
 }
 
 .demo-3 {
