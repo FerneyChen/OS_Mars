@@ -3,8 +3,12 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"> <!--Icons-->
-        <link rel="stylesheet" href="css/styles.css">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
 
         <title>Responsive sidebar submenus</title>
     </head>
@@ -12,9 +16,9 @@
         <!--========== HEADER ==========-->
         <header class="header">
             <div class="header__container">
-                <img src="https://github.com/Offsaying/OS_Mars/assets/120654757/12437b00-f150-47d4-b510-cca20530d63c" alt="" class="header__img">
+                <img src="assets/img/perfil.jpg" alt="" class="header__img">
 
-                <a href="#" class="header__logo">OFFSAYING</a>
+                <a href="#" class="header__logo">Bedimcode</a>
     
                 <div class="header__search">
                     <input type="search" placeholder="Search" class="header__input">
@@ -33,323 +37,90 @@
                 <div>
                     <a href="#" class="nav__link nav__logo">
                         <i class='bx bxs-disc nav__icon' ></i>
-                        <span class="nav__logo-name">STUDY - 课程</span>
+                        <span class="nav__logo-name">Bedimcode</span>
                     </a>
     
                     <div class="nav__list">
-                        <a href="#" class="nav__link active"><i class='bx bx-home nav__icon' ></i><span class="nav__name">Home</span></a>
-                        <a href="https://offsaying.github.io" class="nav__link active"><i class='bx bx-log-out nav__icon' ></i><span class="nav__name">Back</span></a>
-                        <a href="https://offsaying.github.io/OS_Mars/Yu Chen丨Resume 丨V2.pdf" class="nav__link active"><i class='bx bx-user nav__icon' ></i><span class="nav__name">Resume</span></a>
-                        <div class="nav__items">   
-                            <h3 class="nav__subtitle">Algebra B</h3>     
-                                <div class="nav__dropdown">
-                                    <a href="#" class="nav__link"><i class='bx bx-book-alt nav__icon' ></i><span class="nav__name">Lecture</span><i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i></a>
-                                        <div class="nav__dropdown-collapse"><div class="nav__dropdown-content">
-                                                <a href="#" class="nav__dropdown-item">Lec 1</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 2</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 3</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 4</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 5</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 6</a>                                        
-                                                <a href="#" class="nav__dropdown-item">Lec 7</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 8</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 9</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 10</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 11</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 12</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 13</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 14</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 15</a>                                        
-                                                <a href="#" class="nav__dropdown-item">Lec 16</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 17</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 18</a>
-                                        </div></div>
-                                </div>
+                        <div class="nav__items">
+                            <h3 class="nav__subtitle">Profile</h3>
+    
+                            <a href="#" class="nav__link active">
+                                <i class='bx bx-home nav__icon' ></i>
+                                <span class="nav__name">Home</span>
+                            </a>
+                            
+                            <div class="nav__dropdown">
+                                <a href="#" class="nav__link">
+                                    <i class='bx bx-user nav__icon' ></i>
+                                    <span class="nav__name">Profile</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
 
-                                <div class="nav__dropdown">
-                                    <a href="#" class="nav__link"><i class='bx bx-book-alt nav__icon' ></i><span class="nav__name">Tutorial</span><i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i></a>
-                                        <div class="nav__dropdown-collapse"><div class="nav__dropdown-content">
-                                                <a href="#" class="nav__dropdown-item">Tut 1</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 2</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 3</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 4</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 5</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 6</a>                                        
-                                                <a href="#" class="nav__dropdown-item">Tut 7</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 8</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 9</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 10</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 11</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 12</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 13</a>
-                                                <a href="#" class="nav__dropdown-item">TUt 14</a>
-                                        </div></div>
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="#" class="nav__dropdown-item">Passwords</a>
+                                        <a href="#" class="nav__dropdown-item">Mail</a>
+                                        <a href="#" class="nav__dropdown-item">Accounts</a>
+                                    </div>
                                 </div>
+                            </div>
 
-                                <div class="nav__dropdown">
-                                    <a href="#" class="nav__link"><i class='bx bx-book-bookmark nav__icon' ></i><span class="nav__name">Assignment</span><i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i></a>
-                                        <div class="nav__dropdown-collapse"><div class="nav__dropdown-content">
-                                                <a href="#" class="nav__dropdown-item">Ass 1</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 2</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 3</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 4</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 5</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 6</a>                                        
-                                        </div></div>
-                                </div>
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-message-rounded nav__icon' ></i>
+                                <span class="nav__name">Messages</span>
+                            </a>
                         </div>
     
                         <div class="nav__items">
-                            <h3 class="nav__subtitle">Infi 2</h3>
-                                <div class="nav__dropdown">
-                                    <a href="#" class="nav__link"><i class='bx bx-book-alt nav__icon' ></i><span class="nav__name">Lecture</span><i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i></a>
-                                        <div class="nav__dropdown-collapse"><div class="nav__dropdown-content">
-                                                <a href="#" class="nav__dropdown-item">Lec 1</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 2</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 3</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 4</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 5</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 6</a>                                        
-                                                <a href="#" class="nav__dropdown-item">Lec 7</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 8</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 9</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 10</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 11</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 12</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 13</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 14</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 15</a>                                        
-                                                <a href="#" class="nav__dropdown-item">Lec 16</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 17</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 18</a>
-                                        </div></div>
+                            <h3 class="nav__subtitle">Menu</h3>
+    
+                            <div class="nav__dropdown">
+                                <a href="#" class="nav__link">
+                                    <i class='bx bx-bell nav__icon' ></i>
+                                    <span class="nav__name">Notifications</span>
+                                    <i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i>
+                                </a>
+
+                                <div class="nav__dropdown-collapse">
+                                    <div class="nav__dropdown-content">
+                                        <a href="#" class="nav__dropdown-item">Blocked</a>
+                                        <a href="#" class="nav__dropdown-item">Silenced</a>
+                                        <a href="#" class="nav__dropdown-item">Publish</a>
+                                        <a href="#" class="nav__dropdown-item">Program</a>
+                                    </div>
                                 </div>
 
-                                <div class="nav__dropdown">
-                                    <a href="#" class="nav__link"><i class='bx bx-book-alt nav__icon' ></i><span class="nav__name">Tutorial</span><i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i></a>
-                                        <div class="nav__dropdown-collapse"><div class="nav__dropdown-content">
-                                                <a href="#" class="nav__dropdown-item">Tut 1</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 2</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 3</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 4</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 5</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 6</a>                                        
-                                                <a href="#" class="nav__dropdown-item">Tut 7</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 8</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 9</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 10</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 11</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 12</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 13</a>
-                                                <a href="#" class="nav__dropdown-item">TUt 14</a>
-                                        </div></div>
-                                </div>
+                            </div>
 
-                                <div class="nav__dropdown">
-                                    <a href="#" class="nav__link"><i class='bx bx-book-bookmark nav__icon' ></i><span class="nav__name">Assignment</span><i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i></a>
-                                        <div class="nav__dropdown-collapse"><div class="nav__dropdown-content">
-                                                <a href="#" class="nav__dropdown-item">Ass 1</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 2</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 3</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 4</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 5</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 6</a>                                        
-                                        </div></div>
-                                </div>
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-compass nav__icon' ></i>
+                                <span class="nav__name">Explore</span>
+                            </a>
+                            <a href="#" class="nav__link">
+                                <i class='bx bx-bookmark nav__icon' ></i>
+                                <span class="nav__name">Saved</span>
+                            </a>
                         </div>
-
-                        <div class="nav__items">
-                            <h3 class="nav__subtitle">Computer Organization</h3>
-                                <div class="nav__dropdown">
-                                    <a href="#" class="nav__link"><i class='bx bx-book-alt nav__icon' ></i><span class="nav__name">Lecture</span><i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i></a>
-                                        <div class="nav__dropdown-collapse"><div class="nav__dropdown-content">
-                                                <a href="#" class="nav__dropdown-item">Lec 1</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 2</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 3</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 4</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 5</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 6</a>                                        
-                                                <a href="#" class="nav__dropdown-item">Lec 7</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 8</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 9</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 10</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 11</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 12</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 13</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 14</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 15</a>                                        
-                                                <a href="#" class="nav__dropdown-item">Lec 16</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 17</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 18</a>
-                                        </div></div>
-                                </div>
-
-                                <div class="nav__dropdown">
-                                    <a href="#" class="nav__link"><i class='bx bx-book-alt nav__icon' ></i><span class="nav__name">Tutorial</span><i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i></a>
-                                        <div class="nav__dropdown-collapse"><div class="nav__dropdown-content">
-                                                <a href="#" class="nav__dropdown-item">Tut 1</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 2</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 3</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 4</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 5</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 6</a>                                        
-                                                <a href="#" class="nav__dropdown-item">Tut 7</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 8</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 9</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 10</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 11</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 12</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 13</a>
-                                                <a href="#" class="nav__dropdown-item">TUt 14</a>
-                                        </div></div>
-                                </div>
-
-                                <div class="nav__dropdown">
-                                    <a href="#" class="nav__link"><i class='bx bx-book-bookmark nav__icon' ></i><span class="nav__name">Assignment</span><i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i></a>
-                                        <div class="nav__dropdown-collapse"><div class="nav__dropdown-content">
-                                                <a href="#" class="nav__dropdown-item">Ass 1</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 2</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 3</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 4</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 5</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 6</a>                                        
-                                        </div></div>
-                                </div>
-                        </div>
-
-                        <div class="nav__items">
-                            <h3 class="nav__subtitle">Digital System</h3>
-                                <div class="nav__dropdown">
-                                    <a href="#" class="nav__link"><i class='bx bx-book-alt nav__icon' ></i><span class="nav__name">Lecture</span><i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i></a>
-                                        <div class="nav__dropdown-collapse"><div class="nav__dropdown-content">
-                                                <a href="#" class="nav__dropdown-item">Lec 1</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 2</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 3</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 4</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 5</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 6</a>                                        
-                                                <a href="#" class="nav__dropdown-item">Lec 7</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 8</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 9</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 10</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 11</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 12</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 13</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 14</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 15</a>                                        
-                                                <a href="#" class="nav__dropdown-item">Lec 16</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 17</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 18</a>
-                                        </div></div>
-                                </div>
-
-                                <div class="nav__dropdown">
-                                    <a href="#" class="nav__link"><i class='bx bx-book-alt nav__icon' ></i><span class="nav__name">Tutorial</span><i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i></a>
-                                        <div class="nav__dropdown-collapse"><div class="nav__dropdown-content">
-                                                <a href="#" class="nav__dropdown-item">Tut 1</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 2</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 3</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 4</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 5</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 6</a>                                        
-                                                <a href="#" class="nav__dropdown-item">Tut 7</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 8</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 9</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 10</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 11</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 12</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 13</a>
-                                                <a href="#" class="nav__dropdown-item">TUt 14</a>
-                                        </div></div>
-                                </div>
-
-                                <div class="nav__dropdown">
-                                    <a href="#" class="nav__link"><i class='bx bx-book-bookmark nav__icon' ></i><span class="nav__name">Assignment</span><i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i></a>
-                                        <div class="nav__dropdown-collapse"><div class="nav__dropdown-content">
-                                                <a href="#" class="nav__dropdown-item">Ass 1</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 2</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 3</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 4</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 5</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 6</a>                                        
-                                        </div></div>
-                                </div>
-                        </div>
-
-                        <div class="nav__items">
-                            <h3 class="nav__subtitle">Data Structure</h3>
-                                <div class="nav__dropdown">
-                                    <a href="#" class="nav__link"><i class='bx bx-book-alt nav__icon' ></i><span class="nav__name">Lecture</span><i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i></a>
-                                        <div class="nav__dropdown-collapse"><div class="nav__dropdown-content">
-                                                <a href="#" class="nav__dropdown-item">Lec 1</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 2</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 3</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 4</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 5</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 6</a>                                        
-                                                <a href="#" class="nav__dropdown-item">Lec 7</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 8</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 9</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 10</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 11</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 12</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 13</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 14</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 15</a>                                        
-                                                <a href="#" class="nav__dropdown-item">Lec 16</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 17</a>
-                                                <a href="#" class="nav__dropdown-item">Lec 18</a>
-                                        </div></div>
-                                </div>
-
-                                <div class="nav__dropdown">
-                                    <a href="#" class="nav__link"><i class='bx bx-book-alt nav__icon' ></i><span class="nav__name">Tutorial</span><i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i></a>
-                                        <div class="nav__dropdown-collapse"><div class="nav__dropdown-content">
-                                                <a href="#" class="nav__dropdown-item">Tut 1</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 2</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 3</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 4</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 5</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 6</a>                                        
-                                                <a href="#" class="nav__dropdown-item">Tut 7</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 8</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 9</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 10</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 11</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 12</a>
-                                                <a href="#" class="nav__dropdown-item">Tut 13</a>
-                                                <a href="#" class="nav__dropdown-item">TUt 14</a>
-                                        </div></div>
-                                </div>
-
-                                <div class="nav__dropdown">
-                                    <a href="#" class="nav__link"><i class='bx bx-book-bookmark nav__icon' ></i><span class="nav__name">Assignment</span><i class='bx bx-chevron-down nav__icon nav__dropdown-icon'></i></a>
-                                        <div class="nav__dropdown-collapse"><div class="nav__dropdown-content">
-                                                <a href="#" class="nav__dropdown-item">Ass 1</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 2</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 3</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 4</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 5</a>
-                                                <a href="#" class="nav__dropdown-item">Ass 6</a>                                        
-                                        </div></div>
-                                </div>
-                        </div>
-
-
-
                     </div>
                 </div>
 
-                <a href="https://offsaying.github.io" class="nav__link nav__logout"><i class='bx bx-log-out nav__icon' ></i><span class="nav__name">Back</span></a>
+                <a href="#" class="nav__link nav__logout">
+                    <i class='bx bx-log-out nav__icon' ></i>
+                    <span class="nav__name">Log Out</span>
+                </a>
             </nav>
         </div>
 
         <!--========== CONTENTS ==========-->
         <main>
-            This is the page of STUDY.
+            <section>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vel illum fuga unde cum, voluptates magni molestias eveniet culpa autem ut, totam veniam, suscipit tempore ullam pariatur est at asperiores?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vel illum fuga unde cum, voluptates magni molestias eveniet culpa autem ut, totam veniam, suscipit tempore ullam pariatur est at asperiores?</p>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt vel illum fuga unde cum, voluptates magni molestias eveniet culpa autem ut, totam veniam, suscipit tempore ullam pariatur est at asperiores?</p>
+            </section>
         </main>
 
         <!--========== MAIN JS ==========-->
-        <script src="js/main.js"></script>
+        <script src="assets/js/main.js"></script>
     </body>
 </html>
