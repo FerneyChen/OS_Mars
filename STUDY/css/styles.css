@@ -96,9 +96,10 @@ img {
 }
 
 .header__search {
+  left: 12%;
+  position: fixed;
   color:black;
   display: flex;
-  padding: .40rem .75rem;
   background-color: var(--first-color-light);
   border-radius: .25rem;
 }
