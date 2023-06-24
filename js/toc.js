@@ -11,16 +11,16 @@ function mashiroToc(mashiro) {
                 });
             }
             $(window).scroll(function() {
-                //var p = $(window).scrollTop();
-                //if (p > iniTop - finTop) {
-                //    $elm.css({
-                //        'top': finTop
-                //    });
-                //} else {
-                //    $elm.css({
-                //        'top': iniTop - p
-                //    });
-                //}
+                var p = $(window).scrollTop();
+                if (p > iniTop - finTop) {
+                   $elm.css({
+                       'top': finTop
+                   });
+                } else {
+                   $elm.css({
+                       'top': iniTop - p
+                   });
+                }
             });
         }
     });
