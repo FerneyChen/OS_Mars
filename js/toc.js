@@ -37,10 +37,10 @@ function mashiroToc(mashiro) {
             contentSelector: '.content',
             headingSelector: 'h1, h2, h3, h4, h5',
             positionFixedSelector: ".toc",
-            //scrollEndCallback: function (e) {
-               // if($(document).scrollTop() >= $(document).height() - $(window).height()) {
-               //     window.scrollTo(window.scrollX, window.scrollY);
-               // }else{
+            scrollEndCallback: function (e) {
+               if($(document).scrollTop() >= $(document).height() - $(window).height()) {
+                   window.scrollTo(window.scrollX, window.scrollY);
+               }else{
                     // window.scrollTo(window.scrollX, window.scrollY - 80);
                 }
             },
