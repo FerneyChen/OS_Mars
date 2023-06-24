@@ -1,4 +1,4 @@
-        .toc{color:#000;font-family: "Poppins"; width: 200px;height: auto;z-index: 999;padding: 10px 10px 10px 0; border-radius: 10px; background: transparent;transform: translateX(0);right: calc((100% - 1610px) / 2);position: fixed;}
+        .toc{color:#fff;font-family: "Poppins"; width: 200px;height: auto;z-index: 999;padding: 10px 10px 10px 0; border-radius: 10px; background: transparent;transform: translateX(0);right: calc((100% - 1610px) / 2);position: fixed;}
         .toc{overflow-y:auto}
         .toc>.toc-list{overflow:hidden;position:relative}
         .toc>.toc-list li{list-style:none}
