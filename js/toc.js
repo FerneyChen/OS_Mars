@@ -44,7 +44,7 @@ function mashiroToc(mashiro) {
                 if($(document).scrollTop() >= $(document).height() - $(window).height()) {
                     window.scrollTo(window.scrollX, window.scrollY);
                 }else{
-                    //window.scrollTo(window.scrollX, window.scrollY - 80);
+                    window.scrollTo(window.scrollX, window.scrollY);
                 }
             },
         });
