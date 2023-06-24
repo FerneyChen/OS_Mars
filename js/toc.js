@@ -2,7 +2,7 @@ function mashiroToc(mashiro) {
     $(document).ready(function() {
         if ($("div").hasClass("toc")) {
             var $elm = $('.toc');
-            var iniTop = 500; 
+            var iniTop = 100; 
             var finTop = 100; 
             var hasScrolled = $('.content').offset().top;
             if (hasScrolled > iniTop) {
