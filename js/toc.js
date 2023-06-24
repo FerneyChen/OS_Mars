@@ -23,7 +23,8 @@ function mashiroToc(mashiro) {
                 }
             });
         }
-    }); 
+    });
+
     if (mashiro) {
         var id = 1;
         $(".content").children("h2,h3,h4,h5,h6").each(function() {
@@ -32,16 +33,18 @@ function mashiroToc(mashiro) {
             $(this).attr('id', hyphenated);
             id++;
         });
+
         tocbot.init({
             tocSelector: '.toc',
             contentSelector: '.content',
             headingSelector: 'h1, h2, h3, h4, h5',
             positionFixedSelector: ".toc",
+
             scrollEndCallback: function (e) {
-               if($(document).scrollTop() >= $(document).height() - $(window).height()) {
-                   window.scrollTo(window.scrollX, window.scrollY);
-               }else{
-                    // window.scrollTo(window.scrollX, window.scrollY - 80);
+                if($(document).scrollTop() >= $(document).height() - $(window).height()) {
+                    window.scrollTo(window.scrollX, window.scrollY);
+                }else{
+                    //window.scrollTo(window.scrollX, window.scrollY - 80);
                 }
             },
         });
