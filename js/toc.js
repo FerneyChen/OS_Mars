@@ -23,7 +23,7 @@ function mashiroToc(mashiro) {
                 }
             });
         }
-    });
+    }); 
     if (mashiro) {
         var id = 1;
         $(".content").children("h2,h3,h4,h5,h6").each(function() {
