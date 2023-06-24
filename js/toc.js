@@ -10,18 +10,18 @@ function mashiroToc(mashiro) {
                     'top': finTop
                 });
             }
-            // $(window).scroll(function() {
-            //     var p = $(window).scrollTop();
-            //     if (p > iniTop - finTop) {
-            //         $elm.css({
-            //             'top': finTop
-            //         });
-            //     } else {
-            //         $elm.css({
-            //             'top': iniTop - p
-            //         });
-            //     }
-            // });
+            $(window).scroll(function() {
+                var p = $(window).scrollTop();
+                if (p > iniTop - finTop) {
+                    $elm.css({
+                        'top': finTop
+                    });
+                } else {
+                    $elm.css({
+                        'top': iniTop - p
+                    });
+                }
+            });
         }
     });
     if (mashiro) {
