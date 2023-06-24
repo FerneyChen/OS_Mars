@@ -13,13 +13,13 @@ function mashiroToc(mashiro) {
             $(window).scroll(function() {
                 var p = $(window).scrollTop();
                 if (p > iniTop - finTop) {
-                   $elm.css({
-                       'top': finTop
-                   });
+                    $elm.css({
+                        'top': finTop
+                    });
                 } else {
-                   $elm.css({
-                       'top': iniTop - p
-                   });
+                    $elm.css({
+                        'top': iniTop - p
+                    });
                 }
             });
         }
@@ -37,15 +37,15 @@ function mashiroToc(mashiro) {
         tocbot.init({
             tocSelector: '.toc',
             contentSelector: '.content',
-            headingSelector: 'h1, h2, h3, h4, h5, h6',
+            headingSelector: 'h1, h2, h3, h4, h5',
             positionFixedSelector: ".toc",
 
             scrollEndCallback: function (e) {
-                //if($(document).scrollTop() >= $(document).height() - $(window).height()) {
-                //    window.scrollTo(window.scrollX, window.scrollY);
-                //}else{
+                if($(document).scrollTop() >= $(document).height() - $(window).height()) {
+                    window.scrollTo(window.scrollX, window.scrollY);
+                }else{
                     //window.scrollTo(window.scrollX, window.scrollY - 80);
-                //}
+                }
             },
         });
     }
