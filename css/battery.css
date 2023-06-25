@@ -20,7 +20,7 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: 'Poppins';
+  --body-font: "Poppins";
 
   --biggest-font-size: 1.875rem;
   --normal-font-size: .7035rem;
@@ -52,10 +52,6 @@ body {
 
 /*=============== BATTERY ===============*/
 .battery {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  background-color: var(--body-color);
-  color: var(--text-color);
   height: 75vh;
   display: grid;
   place-items: center;
@@ -63,10 +59,6 @@ body {
 }
 
 .battery__card {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  background-color: var(--body-color);
-  color: var(--text-color);
   position: fixed ;
   width: 100%;
   height: 180px;
@@ -80,26 +72,14 @@ body {
 }
 
 .battery__text {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  background-color: var(--body-color);
-  color: var(--text-color);
   margin-bottom: .375rem;
 }
 
 .battery__percentage {
-  font-family: var(--body-font);
-  font-size: var(--normal-font-size);
-  background-color: var(--body-color);
-  color: var(--text-color);
-  /*font-size: var(--biggest-font-size);*/
+  font-size: var(--biggest-font-size);
 }
 
 .battery__status {
-  font-family: var(--body-font);
-  /*font-size: var(--normal-font-size);*/
-  background-color: var(--body-color);
-  color: var(--text-color);
   position: absolute;
   bottom: 1.125rem;
   display: flex;
@@ -109,10 +89,6 @@ body {
 }
 
 .battery__status i {
-  font-family: var(--body-font);
-  /*font-size: var(--normal-font-size);*/
-  background-color: var(--body-color);
-  color: var(--text-color);
   font-size: 0.9375rem;
 }
 
