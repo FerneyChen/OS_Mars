@@ -1,6 +1,3 @@
-/*=============== GOOGLE FONTS ===============*/
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap");
-
 /*=============== VARIABLES CSS ===============*/
 :root {
   /*========== Colors ==========*/
@@ -23,7 +20,7 @@
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
-  --body-font: 'Rubik', sans-serif;
+  --body-font: 'Poppins';
 
   --biggest-font-size: 1.875rem;
   --normal-font-size: .7035rem;
@@ -55,6 +52,7 @@ body {
 
 /*=============== BATTERY ===============*/
 .battery {
+  font-family: var(--body-font);
   height: 75vh;
   display: grid;
   place-items: center;
@@ -62,6 +60,7 @@ body {
 }
 
 .battery__card {
+  font-family: var(--body-font);
   position: fixed ;
   width: 100%;
   height: 180px;
@@ -75,14 +74,17 @@ body {
 }
 
 .battery__text {
+  font-family: var(--body-font);
   margin-bottom: .375rem;
 }
 
 .battery__percentage {
+  font-family: var(--body-font);
   font-size: var(--biggest-font-size);
 }
 
 .battery__status {
+  font-family: var(--body-font);
   position: absolute;
   bottom: 1.125rem;
   display: flex;
@@ -92,6 +94,7 @@ body {
 }
 
 .battery__status i {
+  font-family: var(--body-font);
   font-size: 0.9375rem;
 }
 
