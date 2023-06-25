@@ -200,7 +200,7 @@ body {
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
   .battery__card {
     display: none;
     zoom: .6;
