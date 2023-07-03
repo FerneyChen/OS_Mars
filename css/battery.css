@@ -12,11 +12,11 @@
                            hsl(54, 89%, 46%) 15%,
                            hsl(182, 90%, 45%) 100%);
   --gradient-color-green: linear-gradient(90deg, 
-                          hsl(182, 89%, 46%) 15%,
-                          hsl(182, 90%, 68%) 100%);
-  --text-color: #fff;
+                          hsl(40, 89%, 46%) 15%,
+                          hsl(212, 90%, 68%) 100%);
+  --text-color: #000;
   --body-color: hsl(0, 0%, 11%);
-  --container-color: hsl(0, 0%, 9%);
+  --container-color: transparent;
 
   /*========== Font and typography ==========*/
   /*.5rem = 8px | 1rem = 16px ...*/
@@ -59,12 +59,15 @@ body {
 }
 
 .battery__card {
+  border-top: #dcdcdc solid 2px;
+  border-right: #dcdcdc solid 2px;
+  border-bottom: #dcdcdc solid 2px;
+  border-radius: 5%;
   position: fixed ;
   width: 100%;
   height: 180px;
   background-color: var(--container-color);
   padding: 1.125rem 1.5rem;
-  border-radius: 1.125rem;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   left: 0px;
